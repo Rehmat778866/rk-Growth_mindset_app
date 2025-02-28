@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Growth Mindset Project", page_icon="★")
 
 
-st.title("Growth Mindset Chaalenge: Web App with Streamlit")
+st.title("Growth Mindset Challenge: Web App with Streamlit")
 
 st.header("🚀 Welcome to your Growth Journey!")
 st.write("The journey to becoming a Full-Stack Developer & AI Engineer is a path of relentless learning, problem-solving, and innovation. It’s about embracing challenges as opportunities, continuously expanding your technical expertise, and developing a growth mindset that fuels success. A true expert doesn’t settle for limits but pushes beyond them—mastering frontend and backend development, understanding databases, cloud computing, and harnessing the power of AI to build intelligent solutions. Each line of code, every bug fixed, and every project completed takes you one step closer to mastery. Stay curious, adaptable, and persistent—because the tech world is ever-evolving, and those who embrace the journey with passion and resilience will shape the future. Keep learning, keep building, and keep growing—your success is inevitable.")
@@ -24,7 +24,7 @@ else:
     st.warning("Tell us about your challenge to get started!")
 
 # Reflexing
-    st.header(" Reflect on your Learning ")
+    st.header("Reflect on your Learning💞")
     reflection = st.text_area(" Write your reflections here: ")
 
 if reflection:
@@ -33,7 +33,7 @@ else:
     st.info("Reflecting on past experience help your grow! Share your struggle")
 
 # acheivements
-st.header("🏆ＣＥＬＥＢＲＡＴＥ  ＹＯＵ  ＷＩＮ!")
+st.header("🏆Celebrate! You Win 🏆🎉")
 achievement = st.text_input("Share something you're recently accomplished:")
 
 if achievement:
