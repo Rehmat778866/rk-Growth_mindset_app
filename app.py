@@ -23,8 +23,8 @@ else:
     st.warning("Tell us about your challenge to get started!")
 
 # Reflexing
-    st.header("Reflect on your Learning💞")
-    reflection = st.text_area(" Write your reflections here: ")
+    st.header("Reflection on your Learning💞")
+    reflection = st.text_area(" Write your reflection here: ")
 
 if reflection:
     st.success(f" ⭐Great Insight! Your reflection: {reflection}")
