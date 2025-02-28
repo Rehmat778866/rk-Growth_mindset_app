@@ -26,7 +26,8 @@ st.header("📝 Reflect on Your Learning")
 reflection = st.text_area("Write your reflections here:")
 
 if reflection:
-    st.success(f"⭐ Great Insight! Your reflection: {reflection}")
+   st.success(f"⭐ Great Insight! Your reflection: {reflection}")
+
 else:
     st.info("Reflecting on past experiences helps you grow! Share your struggles.")
 
