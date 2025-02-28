@@ -4,7 +4,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Growth Mindset Project", page_icon="★")
 
-
 st.title("Growth Mindset Challenge: Web App with Streamlit")
 
 st.header("🚀 Welcome to your Growth Journey!")
@@ -44,4 +43,5 @@ else:
 # footer
 st.write("- - -")
 st.write("🚀Keep believing in yourself for 🌟Bright Future🌟 Growth is a journey, not a destination!")
+
 st.write("**💖 Created by REHMAT KHALID 💖**")
