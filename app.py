@@ -33,7 +33,7 @@ else:
     st.info("Reflecting on past experience help your grow! Share your struggle")
 
 # acheivements
-st.header("🏆 ＣＥＬＥＢＲＡＴＥ  ＹＯＵ  ＷＩＮ！ 🏆")
+st.header("🏆ＣＥＬＥＢＲＡＴＥ  ＹＯＵ  ＷＩＮ!")
 achievement = st.text_input("Share something you're recently accomplished:")
 
 if achievement:
